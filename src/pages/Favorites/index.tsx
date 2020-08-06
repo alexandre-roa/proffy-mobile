@@ -1,15 +1,15 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-import './styles'
-import styles from '../Landing/styles'
+import PageHeader from '../../components/Pageheader'
+import styles from './styles'
 
 
 function Favorites() {
     return (
         <View style={styles.container}>
-            <Text>Favorites</Text>
-        </View>
+      <PageHeader title='Meus Proffys favoritos'/>
+    </View>
     )
 }
 
